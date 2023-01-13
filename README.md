@@ -15,3 +15,6 @@ Note: The code only works if there is an Apache Web Server connection as well as
 
 ### validator.py 
 Contains the code to the PART 2: Python
+
+###DTM_Tools_202211.pdf
+Is the write up of the assessment
