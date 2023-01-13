@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linux Machines Monitor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Linux Machines Monitor</h1>
+    <!-- Form to get data from user input -->
+    <form id="insert-form">
+        <label for="hostname">Hostname:</label>
+        <input type="text" id="hostname" name="hostname"><br>
+
+        <label for="ip_address">IP Address:</label>
+        <input type="text" id="ip_address" name="ip_address"><br>
+
+        <label for="os_name">OS Name:</label>
+        <input type="text" id="os_name" name="os_name"><br>
+
+        <label for="ram">RAM:</label>
+        <input type="text" id="ram" name="ram"><br>
+
+        <label for="cpu">CPU:</label>
+        <input type="text" id="cpu" name="cpu"><br>
+
+        <label for="hdd">HDD:</label>
+        <input type="text" id="hdd" name="hdd"><br>
+
+        <label for="graphics">Graphics:</label>
+        <input type="text" id="graphics" name="graphics"><br>
+
+        <label for="display">Display:</label>
+        <input type="text" id="display" name="display"><br>
+
+        <label for="hardware">Hardware:</label>
+        <input type="text" id="hardware" name="hardware"><br>
+        
+        <!-- <label for="cpu_usage">CPU Usage:</label>
+        <input type="text" id="cpu_usage" name="cpu_usage">
+
+        <label for="mem_usage">Memory Usage:</label>
+        <input type="text" id="mem_usage" name="mem_usage"> -->
+
+        <label for="uptime">Uptime:</label>
+        <input type="text" id="uptime" name="uptime"><br>
+
+        <label for="status">Status (1:Online, 2:Offline):</label>
+        <input type="text" id="status" name="status"><br>
+
+        <input type="button" value="Add Machine" onclick="addMachine()">
+    </form>
+    <br><br>
+    <!-- Filter form -->
+    <form id="filter-form">
+    <label for="filter-hostname">Filter by Hostname:</label>
+    <input type="text" id="filter-hostname" name="filter-hostname">
+    <label for="filter-os_name">Filter by OS Name:</label>
+    <input type="text" id="filter-os_name" name="filter-os_name">
+
+    <!-- Display table -->
+    <input type="submit" value="Filter Machines">
+    <br><br>
+    </form>
+    <table id="machines-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Hostname</th>
+                <th>IP Address</th>
+                <th>OS Name</th>
+                <th>RAM</th>
+                <th>CPU</th>
+                <th>HDD</th>
+                <th>Graphics</th>
+                <th>Display</th>
+                <th>Hardware</th>
+                <th>Uptime</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <br>
+
+    <!-- Create and reset table buttons -->
+    <form  id="test">
+        <input type="submit" value="Create Machine Table"  onclick="createTable() ">
+    </form> 
+    <form  id="test">
+        <input type="submit" value="Reset Machine Table"  onclick="resetTable() ">
+    </form> 
+
+    <script src="script.js"></script>
+</body>
+</html>
+
