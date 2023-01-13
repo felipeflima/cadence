@@ -6,8 +6,6 @@ This repo contains the answers to the assessment sent by Cadence.
 ## [Felipe Lima Cadence Test Documentation](https://grape-aletopelta-3ef.notion.site/Felipe-Lima-Cadence-7e57c2cd25614f998c06160d1466ae24)
 Access this link for the answers and documentation of the code.
 
-##<a href="https://grape-aletopelta-3ef.notion.site/Felipe-Lima-Cadence-7e57c2cd25614f998c06160d1466ae24" target="_blank">Felipe Lima Cadence Test Documentation</a>
-
 ### FelipeLima.pdf
 This is a PDF version of the link above. Contains the detailed description of solving each exercise in case you want to download it
 
