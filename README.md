@@ -15,6 +15,3 @@ Note: The code only works if there is an Apache Web Server connection as well as
 
 ### validator.py 
 Contains the code to the PART 2: Python
-
-
-<a href="https://grape-aletopelta-3ef.notion.site/Felipe-Lima-Cadence-7e57c2cd25614f998c06160d1466ae24" target="_blank">Felipe Lima Cadence Test Documentation</a>
